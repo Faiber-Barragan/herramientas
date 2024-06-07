@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏪Asset Management Platform 🏪
+## Introduction
 
-## Getting Started
+Welcome to the Asset Management Platform. This project is a web application developed using Next.js and Prisma ORM. The platform allows users to manage their assets, perform transactions, make reservations, and write reviews. It is designed to facilitate the temporary exchange of tools and equipment between users, providing an intuitive and robust interface.
 
-First, run the development server:
+### Main Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Asset Management:** Users can add, update, and delete assets from their inventory.
+- **Transactions:** Record and manage financial transactions related to assets.
+- **Reservations:** Reservation system that allows users to book assets for specific periods.
+- **Reviews:** Users can leave reviews and ratings for the assets they have used.
+
+### Technologies Used
+
+- **Next.js:** A React framework for web application development with server-side rendering (SSR) and static site generation.
+- **Prisma ORM:** A modern ORM that simplifies database operations, offering an intuitive and safe approach to queries.
+- **PostgreSQL:** The relational database used in the project to store information about users, assets, transactions, reservations, and reviews.
+- **Tailwind CSS:** A CSS framework for quickly and consistently creating user interfaces.
+
+### Project Structure
+
+- **/pages:** Contains the application pages, managed by Next.js.
+- **/api:** Contains the API endpoints to handle CRUD operations for the models.
+- **/prisma:** Contains the Prisma schema and migration files for the database.
+- **/components:** Contains reusable React components used in the user interface.
+
+
+
+## 🔧 Requirements
+That version or above
+```	
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "joi": "^17.13.1",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  }
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📦 Installation
+```
+gh repo clone Faiber-Barragan/Backend-Tech-Accenture
+npm install
+npm run dev
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The web services used in this application are described in [https://documenter.getpostman.com/view/3388013/TzCV4QRt](https://documenter.getpostman.com/view/13715338/2sA3XJkQ7R)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 💻 Team
+
+| ![https://github.com/Faiber-Barragan](https://avatars.githubusercontent.com/u/61174815?s=400&u=f2d89be9d59531880646203e6fa92c328197d72b&v=4) <br/> [@faiber-barragan](https://github.com/Faiber-Barragan) <br/> Developer |
+|:-:|
+
+- Faiber Alberto Barragán Vergara:octocat: [@faiber-barrragan](https://github.com/Faiber-Barragan)
+
