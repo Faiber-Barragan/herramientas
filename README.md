@@ -42,7 +42,7 @@ That version or above
 
 ## 📦 Installation
 ```
-gh repo clone Faiber-Barragan/Backend-Tech-Accenture
+gh repo clone Faiber-Barragan/herramientas
 npm install
 npm run dev
 ```
